@@ -8,16 +8,17 @@ Tipo - text, number, boolean
 Valor - informação guardada na variável
 */
 
-/* DESAFIO 1
-Criar uma variável de cada tipo primitivo, e imprimir estes valores no console, utilizando o método console.log();
-string
-number
-boolean
-*/
+// DESAFIO: Criar uma variável de cada tipo primitivo, e imprimir estes valores no console, utilizando o método console.log();
 
 
+// String
 var name = 'Taynã Neise';
+
+// Number
 var age = 25;
+
+// Booleano
 var isCustomer = true;
 
+// Impressão dos valores no Console 
 console.log(' My name is ' + name + ", i'am " + age + ' years old. Am i a Trusted student? ' + isCustomer);
