@@ -10,7 +10,6 @@ Valor - informação guardada na variável
 
 // DESAFIO: Criar uma variável de cada tipo primitivo, e imprimir estes valores no console, utilizando o método console.log();
 
-
 // String
 var name = 'Taynã Neise';
 
