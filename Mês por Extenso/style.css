@@ -1,0 +1,39 @@
+/* O seletor * é usado para aplicar estilo a todos elementos do DOM */
+* {
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+/* A tag html é o nosso root element do DOM*/
+html {
+
+    font-size: var(--font-base);
+    color: rgb(253, 253, 253);
+
+}
+
+/* O seletor body faz referência ao elemento body do DOM */
+body {
+
+    height: 100vh;
+    background-color: var(--dark-blue);
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+
+}
+
+/* O seletor :root faz referência ao elemento root do DOM */
+:root{
+   
+    /*color*/
+    --dark-blue: #7a6a75;
+}
+
+#Date{
+
+    padding: 20px;
+    width: 15%;
+}
