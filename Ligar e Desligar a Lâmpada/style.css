@@ -1,0 +1,18 @@
+/* O seletor body faz referência ao elemento body do DOM */
+body {
+
+    height: 100vh;
+    background-color: var(--dark-blue);
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+
+}
+
+/* O seletor * é usado para aplicar estilo a todos elementos do DOM */
+* {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
