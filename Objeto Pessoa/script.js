@@ -5,9 +5,9 @@ document.getElementById('form').addEventListener('submit', function(event){
     event.preventDefault()
 })
 
-var Name = document.getElementsById('Name').value;
-var Age = document.getElementsById('Age').value;
-var Birthdate = document.getElementsById('Birthdate').value;
+var Name = document.getElementById('Name').value;
+var Age = document.getElementById('Age').value;
+var Birthdate = document.getElementById('Birthdate').value;
 
 var Person = 
 {Name: Name, 
@@ -15,5 +15,6 @@ var Person =
     Birthdate: Birthdate};
 
 console.log(Person)
+
 }
 
