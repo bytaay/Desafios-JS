@@ -41,7 +41,7 @@ body {
     font-size: var(--font-s) ;
     text-transform: uppercase;
     line-height: 1.60rem;
-    width: 100%;
+    width: 70%;
     background-color: #c3c5c2;
     margin-top: 1%;
 }
