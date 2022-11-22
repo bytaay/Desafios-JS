@@ -14,7 +14,7 @@ function Rock(){
             alert('A escolha da máquina foi papel, o resultado é: Derrota')
         ]
         else[
-            alert('A escolha da máquina foi pedra, o resultado é: Vitória')
+            alert('A escolha da máquina foi tesoura, o resultado é: Vitória')
         ]
     }
 }
@@ -33,7 +33,7 @@ function Paper(){
             alert('A escolha da máquina foi papel, o resultado é: Empate')
         ]
         else[
-            alert('A escolha da máquina foi pedra, o resultado é: Derrota')
+            alert('A escolha da máquina foi tesoura, o resultado é: Derrota')
         ]
     }
 }
@@ -52,7 +52,7 @@ function Scissors(){
             alert('A escolha da máquina foi papel, o resultado é: Vitória')
         ]
         else[
-            alert('A escolha da máquina foi pedra, o resultado é: Derrota')
+            alert('A escolha da máquina foi tesoura, o resultado é: Empate')
         ]
     }
 }
